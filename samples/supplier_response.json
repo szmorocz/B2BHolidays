@@ -1,0 +1,92 @@
+{
+  "search_id": "SEARCH123456",
+  "currency": "USD",
+  "timestamp": "2025-06-11T10:30:00Z",
+  "hotels": [
+    {
+      "hotel_id": "39656264",
+      "name": "Ramada By Wyndham Springfield North",
+      "category": 3,
+      "destination_code": "US",
+      "rooms": [
+        {
+          "room_id": "JP744949",
+          "name": "ROOM, QUEEN/QUEEN",
+          "capacity": {
+            "adults": 2,
+            "children": 0
+          },
+          "rates": [
+            {
+              "rate_id": "RATE001",
+              "board_type": "RO",
+              "price": 305.80,
+              "booking_code": "JP744949",
+              "cancellation_policies": [
+                {
+                  "from_date": "2025-05-04T10:00:00Z",
+                  "amount": 3.0
+                },
+                {
+                  "from_date": "2025-05-11T23:00:00Z",
+                  "amount": 103.27
+                },
+                {
+                  "from_date": "2025-05-12T23:00:00Z",
+                  "amount": 339.78
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "room_id": "NQQ1",
+          "name": "2 Queen Beds, Non Smoking",
+          "capacity": {
+            "adults": 4,
+            "children": 0
+          },
+          "rates": [
+            {
+              "rate_id": "RATE002",
+              "board_type": "BBF",
+              "price": 280.66,
+              "booking_code": "NQQ1",
+              "cancellation_policies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel_id": "39776757",
+      "name": "Days Inn By Wyndham Fargo",
+      "category": 2,
+      "destination_code": "US",
+      "rooms": [
+        {
+          "room_id": "ND1",
+          "name": "ROOM, QUEEN BED",
+          "capacity": {
+            "adults": 2,
+            "children": 0
+          },
+          "rates": [
+            {
+              "rate_id": "RATE003",
+              "board_type": "RO",
+              "price": 84.82,
+              "booking_code": "ND1",
+              "cancellation_policies": [
+                {
+                  "from_date": "2025-06-10T10:00:00Z",
+                  "amount": 84.82
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
