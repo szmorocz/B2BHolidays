@@ -1,4 +1,4 @@
-// Part 1: Hotel Availability Cache Implementation (Moderate Difficulty)
+// Part 1: Hotel Availability Cache Implementation
 // This component serves as the middleware between our high-traffic customer-facing API and supplier systems
 
 use std::collections::HashMap;
@@ -373,7 +373,7 @@ mod tests {
             default_ttl_seconds: 300,
             cleanup_interval_seconds: 60,
             shards_count: 8,
-            eviction_policy: EvictionPolicy::LeastRecentlyUsed,
+            eviction_policy: EvictionPolicy::LeastFrequentlyUsed,
         };
 
         println!("Starting contention test with config: {:?}", config);

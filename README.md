@@ -77,3 +77,6 @@ Sample files are provided for testing:
 - `samples/supplier_response.json`: Sample JSON response from suppliers
 - `samples/hotel_search_response.xml`: Sample XML response for clients
 - `samples/hotel_search_request.xml`: Sample XML request
+
+Further improvements:
+- The XML parsing speed is good, but it can be faster if split the xml string input with <hotel> tag and parallel parsing them with more threads
